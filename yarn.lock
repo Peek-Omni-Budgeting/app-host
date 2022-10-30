@@ -1404,6 +1404,13 @@
     "@types/mime" "*"
     "@types/node" "*"
 
+"@types/single-spa-react@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/single-spa-react/-/single-spa-react-4.0.0.tgz#017f47a864dc954af7f5561a95c98dd33f856784"
+  integrity sha512-+htuHjgux1Q2J71OGd8/GVvOPVEFFxC8ML4qjr0hppKySUzGLld/O7KbiMOOVVG4gOVBnghsjjHZYlUFLFhKTQ==
+  dependencies:
+    single-spa-react "*"
+
 "@types/sockjs@^0.3.33":
   version "0.3.33"
   resolved "https://registry.yarnpkg.com/@types/sockjs/-/sockjs-0.3.33.tgz#570d3a0b99ac995360e3136fd6045113b1bd236f"
@@ -1886,6 +1893,11 @@ braces@^3.0.2, braces@~3.0.2:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
+
+browserslist-config-single-spa@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/browserslist-config-single-spa/-/browserslist-config-single-spa-1.0.1.tgz#965f1f1606ba44671e649f410d8b8f735a327301"
+  integrity sha512-nqOxTbatv6FcdgBvUTuH4MuojMZwvskspz5Y4dmpVcKd0uaQY8KEl3iALWus16+AwPVe3BIerBNEgELyaHZcQg==
 
 browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4.21.3, browserslist@^4.21.4:
   version "4.21.4"
@@ -4764,6 +4776,13 @@ signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
+single-spa-react@*:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/single-spa-react/-/single-spa-react-5.0.0.tgz#8e25ff542c36c0ec466fdb8868abaa3127a1659c"
+  integrity sha512-gObC4D5tiu+dXty03y7hiFN/mvW8pjemww0UiM7mO8DWBS8JU+Y6L/Mlt9GptcD6kVu/mI+66IvhtQ736C0bVg==
+  dependencies:
+    browserslist-config-single-spa "^1.0.1"
+
 single-spa@^5.9.4:
   version "5.9.4"
   resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.9.4.tgz#2a995b0784867a3f60ceb458de295ee67f045077"
@@ -5044,6 +5063,11 @@ totalist@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/totalist/-/totalist-1.1.0.tgz#a4d65a3e546517701e3e5c37a47a70ac97fe56df"
   integrity sha512-gduQwd1rOdDMGxFG1gEvhV88Oirdo2p+KjoYFU7k2g+i7n6AFFbDQ5kMPUsW0pNbfQsB/cwXvT1i4Bue0s9g5g==
+
+ts-config-single-spa@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ts-config-single-spa/-/ts-config-single-spa-3.0.0.tgz#113112236cc1e13a59b6d351a57ae93aed7c763f"
+  integrity sha512-SS24+FHn9mi0awcoHN4l6uioBxPjgOnwI8adVZeNnw8oXJ8VyAGDqBfRF1EMVtd9Va0bxA8kkeU0SWtLS/Guvg==
 
 ts-loader@^9.4.1:
   version "9.4.1"
