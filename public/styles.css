@@ -1,0 +1,10 @@
+#pob-application\:nav {
+  min-height: 50px;
+}
+#pob-application\:content {
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+#pob-application\:root {
+  min-height: calc(100vh - 90px);
+}
