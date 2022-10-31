@@ -11,4 +11,13 @@ const mergeCustomProps = (customProps: any) => {
   return { ...defaultProps, ...customProps }
 }
 
-export { mergeCustomProps, domElementGetter };
+const getPathBasename = () => {
+  const pathName = window.location.pathname;
+  const re = /(?:.*)\/(.*)\/(\d+\.\d+)\//  //'app-name/x.x.x
+  const baseNameMatch = pathName.match(re);
+  const baseName = baseNameMatch ? baseNameMatch[0] : '';
+
+  return baseName.slice(0, -1);
+}
+
+export { mergeCustomProps, domElementGetter, getPathBasename };
